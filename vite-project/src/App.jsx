@@ -16,26 +16,6 @@
   const DEFAULT_ADMIN = { username: "MUSTAFO", password: "MUSTAFO13" };
   const DEFAULT_TG = { token: "", chatId: "" };
 
-  const DEFAULT_CATS = [
-    { id: "cat1", name: "Ichimliklar", emoji: "☕", image: "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=600&q=80" },
-    { id: "cat2", name: "Asosiy taomlar", emoji: "🍽", image: "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=600&q=80" },
-    { id: "cat3", name: "Salatlar", emoji: "🥗", image: "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=600&q=80" },
-    { id: "cat4", name: "Shirinliklar", emoji: "🍰", image: "https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?w=600&q=80" },
-    { id: "cat5", name: "Nonlar", emoji: "🍞", image: "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=600&q=80" },
-  ];
-
-  const DEFAULT_PRODS = [
-    { id:"p1", name:"Qora choy", price:8000, desc:"Aromatli qora choy, limon bilan", catId:"cat1", image:"https://images.unsplash.com/photo-1544787219-7f47ccb76574?w=500&q=80", available:true, discount:0, featured:false, stock:99 },
-    { id:"p2", name:"Kapuchino", price:25000, desc:"Italyan uslubida tayyorlangan kapuchino", catId:"cat1", image:"https://images.unsplash.com/photo-1572442388796-11668a67e53d?w=500&q=80", available:true, discount:10, featured:true, stock:50 },
-    { id:"p3", name:"Limonad", price:18000, desc:"Yangi limon va nozik shirin ta'm", catId:"cat1", image:"https://images.unsplash.com/photo-1621263764928-df1444c5e859?w=500&q=80", available:true, discount:0, featured:false, stock:40 },
-    { id:"p4", name:"Qo'zichoq oshi", price:55000, desc:"Klassik o'zbek oshi, qo'y go'shti bilan", catId:"cat2", image:"https://images.unsplash.com/photo-1603360946369-dc9bb6258143?w=500&q=80", available:true, discount:0, featured:true, stock:20 },
-    { id:"p5", name:"Lag'mon", price:38000, desc:"Qo'lda tortilgan qozonlag'mon", catId:"cat2", image:"https://images.unsplash.com/photo-1569718212165-3a8278d5f624?w=500&q=80", available:true, discount:5, featured:true, stock:15 },
-    { id:"p6", name:"Shashlik", price:65000, desc:"Qo'y go'shtidan pishirilgan shashlik (3 ta)", catId:"cat2", image:"https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=500&q=80", available:true, discount:0, featured:true, stock:25 },
-    { id:"p7", name:"Achichuk", price:15000, desc:"Pomidor va piyoz salati", catId:"cat3", image:"https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=500&q=80", available:true, discount:0, featured:false, stock:50 },
-    { id:"p8", name:"Chak-chak", price:28000, desc:"Asal bilan qovurilgan milliy tatli", catId:"cat4", image:"https://images.unsplash.com/photo-1551024601-bec78aea704b?w=500&q=80", available:true, discount:0, featured:true, stock:30 },
-    { id:"p9", name:"Non", price:6000, desc:"Tandirdan chiqqan issiq non", catId:"cat5", image:"https://images.unsplash.com/photo-1509440159596-0249088772ff?w=500&q=80", available:true, discount:0, featured:false, stock:100 },
-    { id:"p10", name:"Manti", price:35000, desc:"Bug'da pishirilgan go'shtli manti (5 ta)", catId:"cat2", image:"https://images.unsplash.com/photo-1563245372-f21724e3856d?w=500&q=80", available:false, discount:0, featured:false, stock:0 },
-  ];
 
   function initDB() {
     if (!DB.get("admin")) DB.set("admin", DEFAULT_ADMIN);
@@ -87,7 +67,7 @@
   // ── TELEGRAM CONFIG ──────────────────────────────────────────────
   const DEFAULT_TG_OVERRIDE = {
     token: "8986139311:AAHuBRabXb6u2Jr2EH30T7nn4A-yuOK0oWY",
-    chatId: "-1003940000262"
+    chatId: "-5102694765"
   };
 
   // ── TELEGRAM ──────────────────────────────────────────────────────
